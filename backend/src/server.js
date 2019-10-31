@@ -6,7 +6,7 @@ const app = express();
 
 //Criamos a rota que recebe a requisição, e manda uma resposta escrita com o .send
 app.get('/', (req, res) => {
-    return res.json({ message: "Hello World"});
+    return res.json({ message: "Olá, mundo!"});
 });
 
 //Definimos a porta que  o servidor vai ouvir
